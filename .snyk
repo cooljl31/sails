@@ -1,0 +1,62 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - skipper > connect > serve-index > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - compression > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - connect > express-session > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - express > connect > express-session > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - skipper > connect > express-session > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - connect > morgan > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - connect > serve-index > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - express-session > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - method-override > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - express > connect > compression > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - skipper > connect > compression > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - express > connect > morgan > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - skipper > connect > morgan > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - express > connect > serve-index > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - connect > compression > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - i18n > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - connect > method-override > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - express > connect > method-override > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - skipper > connect > method-override > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - sails-hook-sockets > socket.io > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - sails-hook-sockets > socket.io > engine.io > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - sails-hook-sockets > socket.io > socket.io-adapter > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - sails-hook-sockets > socket.io > socket.io-client > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - sails-hook-sockets > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - skipper > skipper-disk > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - sails-hook-sockets > socket.io > socket.io-parser > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - sails-hook-sockets > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2017-09-26T08:24:12.890Z'
+    - sails-hook-sockets > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2017-09-26T08:24:12.890Z'
